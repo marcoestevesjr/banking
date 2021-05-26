@@ -1,0 +1,30 @@
+{
+  "name": "banking",
+  "version": "1.0.0",
+  "description": "Banking API Demo",
+  "scripts": {
+    "start": "node index.js",
+    "test": "lab -l -v  tests/account.test.js",
+    "lint": "eslint --fix  \"**/*.js\""
+  },
+  "author": "Marco Esteves Junior",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^9.1.2",
+    "@hapi/hapi": "^20.1.3",
+    "@hapi/inert": "^6.0.3",
+    "@hapi/vision": "^6.1.0",
+    "hapi-sequelizejs": "^4.4.1",
+    "hapi-swagger": "^14.1.3",
+    "joi": "^17.4.0",
+    "sequelize": "^6.6.2",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "@hapi/code": "^8.0.3",
+    "@hapi/lab": "^24.2.1",
+    "eslint": "^7.27.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.3"
+  }
+}
