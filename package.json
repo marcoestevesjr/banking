@@ -4,7 +4,7 @@
   "description": "Banking API Demo",
   "scripts": {
     "start": "node index.js",
-    "test": "lab -l -v  tests/account.test.js",
+    "test": "lab -l -v tests",
     "lint": "eslint --fix  \"**/*.js\""
   },
   "author": "Marco Esteves Junior",
